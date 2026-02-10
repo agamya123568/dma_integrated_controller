@@ -115,6 +115,7 @@ Waveforms can be viewed using GTKWave or the Vivado simulator.
 
 ## Repository Structure
 
+```text
 ├── rtl/
 │   ├── dma_top.v
 │   ├── instr_decoder.v
@@ -128,16 +129,18 @@ Waveforms can be viewed using GTKWave or the Vivado simulator.
 │
 ├── diagrams/
 │   ├── block_diagram.png
-│   ├── timing_diagram.png
+│   └── timing_diagram.png
 │
 └── README.md
 
 
-### Block Diagram
 
+```md
+## Block Diagram
 
+```mermaid
 flowchart LR
-    instr[instr,data] --> dec[instr_decoder]
+    instr[instr, data_in] --> dec[instr_decoder]
     dec --> ctrl[control_reg]
 
     dec -->|en_a| addr[address_counter]
@@ -147,7 +150,7 @@ flowchart LR
     src -->|data| dst[dst_fifo]
 
     wc -->|WCI| done[done_logic]
-    dec -->|en_w| done
+    dec --> done
     commit --> addr
     commit --> wc
     commit --> done
