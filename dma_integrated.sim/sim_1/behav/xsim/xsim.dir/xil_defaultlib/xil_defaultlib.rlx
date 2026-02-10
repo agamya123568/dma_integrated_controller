@@ -1,0 +1,15 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+C:/Users/arora/vivado_projects/dma_integrated/dma_integrated.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+C:/Users/arora/vivado_projects/dma_integrated/dma_integrated.srcs/sim_1/new/tb_dma.v,1770445388,verilog,,,,tb_dma_top,,,,,,,,
+C:/Users/arora/vivado_projects/dma_integrated/dma_integrated.srcs/sources_1/new/address_counter.v,1770443372,verilog,,C:/Users/arora/vivado_projects/dma_integrated/dma_integrated.srcs/sources_1/new/control.v,,address_counter,,,,,,,,
+C:/Users/arora/vivado_projects/dma_integrated/dma_integrated.srcs/sources_1/new/control.v,1770443368,verilog,,C:/Users/arora/vivado_projects/dma_integrated/dma_integrated.srcs/sources_1/new/dma_destination.v,,control,,,,,,,,
+C:/Users/arora/vivado_projects/dma_integrated/dma_integrated.srcs/sources_1/new/dma_destination.v,1770444031,verilog,,C:/Users/arora/vivado_projects/dma_integrated/dma_integrated.srcs/sources_1/new/dma_source.v,,dma_destination,,,,,,,,
+C:/Users/arora/vivado_projects/dma_integrated/dma_integrated.srcs/sources_1/new/dma_source.v,1770445393,verilog,,C:/Users/arora/vivado_projects/dma_integrated/dma_integrated.srcs/sources_1/new/dma_top.v,,dma_source,,,,,,,,
+C:/Users/arora/vivado_projects/dma_integrated/dma_integrated.srcs/sources_1/new/dma_top.v,1770703410,verilog,,C:/Users/arora/vivado_projects/dma_integrated/dma_integrated.srcs/sources_1/new/done_logic.v,,dma_top,,,,,,,,
+C:/Users/arora/vivado_projects/dma_integrated/dma_integrated.srcs/sources_1/new/done_logic.v,1770445393,verilog,,C:/Users/arora/vivado_projects/dma_integrated/dma_integrated.srcs/sources_1/new/fifo_2_entry.v,,done_logic,,,,,,,,
+C:/Users/arora/vivado_projects/dma_integrated/dma_integrated.srcs/sources_1/new/fifo_2_entry.v,1770443900,verilog,,C:/Users/arora/vivado_projects/dma_integrated/dma_integrated.srcs/sources_1/new/instr_decoder.v,,fifo_2entry,,,,,,,,
+C:/Users/arora/vivado_projects/dma_integrated/dma_integrated.srcs/sources_1/new/instr_decoder.v,1770443246,verilog,,C:/Users/arora/vivado_projects/dma_integrated/dma_integrated.srcs/sources_1/new/word_counter.v,,instr_decoder,,,,,,,,
+C:/Users/arora/vivado_projects/dma_integrated/dma_integrated.srcs/sources_1/new/word_counter.v,1770445393,verilog,,C:/Users/arora/vivado_projects/dma_integrated/dma_integrated.srcs/sim_1/new/tb_dma.v,,word_counter,,,,,,,,

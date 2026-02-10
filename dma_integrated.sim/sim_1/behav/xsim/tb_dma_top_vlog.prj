@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../dma_integrated.srcs/sources_1/new/address_counter.v" \
+"../../../../dma_integrated.srcs/sources_1/new/control.v" \
+"../../../../dma_integrated.srcs/sources_1/new/dma_destination.v" \
+"../../../../dma_integrated.srcs/sources_1/new/dma_source.v" \
+"../../../../dma_integrated.srcs/sources_1/new/dma_top.v" \
+"../../../../dma_integrated.srcs/sources_1/new/done_logic.v" \
+"../../../../dma_integrated.srcs/sources_1/new/fifo_2_entry.v" \
+"../../../../dma_integrated.srcs/sources_1/new/instr_decoder.v" \
+"../../../../dma_integrated.srcs/sources_1/new/word_counter.v" \
+"../../../../dma_integrated.srcs/sim_1/new/tb_dma.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
