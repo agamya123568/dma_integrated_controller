@@ -133,7 +133,7 @@ Waveforms can be viewed using GTKWave or the Vivado simulator.
 │
 └── README.md
 
-
+```
 
 ```md
 ## Block Diagram
@@ -154,7 +154,7 @@ flowchart LR
     commit --> addr
     commit --> wc
     commit --> done
-
+```
 ---
 ### Timing Diagram
 1. The clock (clk) runs continuously while the reset (rst) is asserted initially to initialize all control and counter registers.
